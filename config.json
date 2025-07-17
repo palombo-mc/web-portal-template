@@ -1,0 +1,22 @@
+{
+  "ipAddress": "play.forestmc.net",
+  "navbarItems": [
+    {
+      "text": "Forums",
+      "url": "#forums"
+    },
+    {
+      "text": "About",
+      "url": "#about"
+    },
+    {
+      "text": "Contact",
+      "url": "#contact"
+    }
+  ],
+  "theme": {
+    "primary": "#4CAF50",
+    "secondary": "#FFC107",
+    "text": "#FFFFFF"
+  }
+}
