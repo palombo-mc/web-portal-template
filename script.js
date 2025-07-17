@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   const config = await fetch("config.json")
     .then((response) => response.json());
 
+  // Title
+  const title = document.getElementById("title");
+
+  title.textContent = config.title;
+
   // Navbar
   const navbarItems = config.navbarItems;
   const navUl = document.querySelector("nav ul");
