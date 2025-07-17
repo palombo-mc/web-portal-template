@@ -1,22 +1,48 @@
 {
-  "ipAddress": "play.forestmc.net",
+  "ipAddress": "play.cubecraft.net",
+  "updatePlayerCountInterval": 30,
   "navbarItems": [
     {
       "text": "Forums",
-      "url": "#forums"
+      "url": "#",
+      "newTab": false
     },
     {
       "text": "About",
-      "url": "#about"
+      "url": "#",
+      "newTab": false
     },
     {
-      "text": "Contact",
-      "url": "#contact"
+      "text": "Discord",
+      "url": "https://discord.com",
+      "newTab": true
     }
   ],
   "theme": {
-    "primary": "#4CAF50",
-    "secondary": "#FFC107",
-    "text": "#FFFFFF"
+    "navbar": {
+      "background": "#052e16",
+      "border": "#14532d",
+      "text": "#FFFFFF"
+    },
+    "playerCount": {
+      "text": "#FFFFFF"
+    },
+    "ipAddress": {
+      "background": "#052e16",
+      "border": "#14532d",
+      "text": "#FFFFFF",
+      "clickToCopy": {
+        "hover": {
+          "background": "#696969",
+          "border": "#696969",
+          "text": "#FFFFFF"
+        },
+        "copied": {
+          "background": "#129640",
+          "border": "#129640",
+          "text": "#FFFFFF"
+        }
+      }
+    }
   }
 }
